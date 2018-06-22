@@ -1,0 +1,22 @@
+import java.util.scanner;
+class StringVowel
+{
+	public static void main(String args[])
+{
+	string str, a="string";
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the string:");
+	str=sc.next();
+	System.out.println("index:"+str.indexof('a','e','i','o','u',));
+	 if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || c == 'a' || c == 'e' || c == 'i' || c ==
+                    'o' || c == 'u') 
+	{
+		System.out.println("string character has vowels ");
+	}
+else
+	{
+		System.out.println("string characters  has no vowels");
+	}
+}
+}	
+                
